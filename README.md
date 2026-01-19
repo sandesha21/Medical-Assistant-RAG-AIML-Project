@@ -31,6 +31,8 @@ A Retrieval-Augmented Generation (RAG) system designed to support healthcare pro
 - [License](#license)
 - [Author](#author)
 
+📋 **[View Detailed Project Requirements](PROJECT_REQUIREMENTS.md)**
+
 ## Overview
 
 This project implements an advanced RAG pipeline that combines semantic search with large language models to provide reliable, evidence-based answers to medical queries. By grounding responses in a curated medical knowledge base, the system helps healthcare professionals make informed decisions while reducing information overload.
