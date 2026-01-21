@@ -1,5 +1,11 @@
 # Medical Assistant RAG - Project Requirements
 
+[![Project Type](https://img.shields.io/badge/Project_Type-Healthcare_AI-blue.svg)](https://github.com/sandesha21/Medical-Assistant-RAG)
+[![Domain](https://img.shields.io/badge/Domain-Medical_NLP-green.svg)](https://github.com/sandesha21/Medical-Assistant-RAG)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/sandesha21/Medical-Assistant-RAG)
+
+---
+
 ## Business Context
 
 The healthcare industry is rapidly evolving, and professionals face increasing challenges in managing vast volumes of medical data while delivering accurate and timely diagnoses. Quick access to comprehensive, reliable, and up-to-date medical knowledge is critical for improving patient outcomes and ensuring informed decision-making in a fast-paced environment.
@@ -7,6 +13,8 @@ The healthcare industry is rapidly evolving, and professionals face increasing c
 Healthcare professionals often encounter information overload, struggling to sift through extensive research and data to create accurate diagnoses and treatment plans. This challenge is amplified by the need for efficiency, particularly in emergencies, where time-sensitive decisions are vital. Furthermore, access to trusted, current medical information from renowned manuals and research papers is essential for maintaining high standards of care.
 
 To address these challenges, healthcare centers can focus on integrating systems that streamline access to medical knowledge, provide tools to support quick decision-making and enhance efficiency. Leveraging centralized knowledge platforms and ensuring healthcare providers have continuous access to reliable resources can significantly improve patient care and operational effectiveness.
+
+---
 
 ## Project Objective
 
@@ -17,6 +25,8 @@ As an AI specialist, your task is to develop a RAG-based AI solution using renow
 - Analyze the impact on diagnostics and patient outcomes
 - Evaluate potential to standardize care practices
 - Create a functional prototype demonstrating feasibility and effectiveness
+
+---
 
 ## Test Questions & Use Cases
 
@@ -31,6 +41,8 @@ The system should be capable of answering complex medical queries such as:
 4. **Neurological Trauma**: What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?
 
 5. **Emergency Medicine**: What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?
+
+---
 
 ## Data Source
 
@@ -50,6 +62,8 @@ The Merck Manuals are medical references published by the American pharmaceutica
 - Organized into 23 specialized sections
 - Trusted source in medical community
 
+---
+
 ## Technical Requirements
 
 ### Hardware Specifications
@@ -58,11 +72,18 @@ The Merck Manuals are medical references published by the American pharmaceutica
 
 #### Google Colab Setup Instructions
 
-1. Click on "Runtime" in the menu bar
-2. Select "Change runtime type" from the dropdown menu
-3. In the "Hardware accelerator" section, choose "GPU"
-4. Select T4-GPU if available for optimal performance
-5. Click "Save" to apply changes
+1. **Access Runtime Settings**
+   - Click on "Runtime" in the menu bar
+   - Select "Change runtime type" from the dropdown menu
+
+2. **Configure GPU**
+   - In the "Hardware accelerator" section, choose "GPU"
+   - Select "T4 GPU" if available for optimal performance
+   - For advanced users: "A100 GPU" provides faster processing
+
+3. **Apply Settings**
+   - Click "Save" to apply changes
+   - Runtime will restart automatically
 
 ### Performance Expectations
 
@@ -72,6 +93,8 @@ The system should demonstrate:
 - Contextually relevant responses grounded in source material
 - Ability to handle complex, multi-part medical questions
 
+---
+
 ## Success Criteria
 
 1. **Accuracy**: Responses must be medically accurate and well-sourced
@@ -79,6 +102,8 @@ The system should demonstrate:
 3. **Completeness**: Answers should be comprehensive yet concise
 4. **Traceability**: All responses should cite specific source materials
 5. **Usability**: System should be intuitive for healthcare professionals
+
+---
 
 ## Evaluation Framework
 
@@ -94,6 +119,8 @@ The system should demonstrate:
 - User experience feedback
 - Integration feasibility assessment
 
+---
+
 ## Implementation Phases
 
 1. **Data Preparation**: Process and chunk medical manual content
@@ -103,6 +130,8 @@ The system should demonstrate:
 5. **Performance Optimization**: Fine-tune for speed and accuracy
 6. **Documentation**: Create comprehensive usage guides
 
+---
+
 ## Compliance & Ethics
 
 - Ensure all medical information is properly attributed
@@ -110,6 +139,44 @@ The system should demonstrate:
 - Include appropriate medical disclaimers
 - Follow healthcare AI ethics guidelines
 - Respect intellectual property rights
+
+---
+
+## Expected Deliverables
+
+### 1. Functional RAG System
+- Complete Jupyter notebook with implementation
+- Documented code with clear explanations
+- Working vector database with medical content
+
+### 2. Performance Analysis
+- Quantitative metrics and benchmarks
+- Response quality evaluation
+- Speed and accuracy measurements
+
+### 3. Documentation Package
+- Technical implementation guide
+- User manual for healthcare professionals
+- API documentation (if applicable)
+
+### 4. Validation Results
+- Test case results for all 5 medical queries
+- Accuracy assessment by medical domain
+- Performance optimization recommendations
+
+---
+
+## Risk Assessment & Mitigation
+
+### Technical Risks
+- **GPU Memory Limitations**: Use batch processing and model optimization
+- **Large Dataset Processing**: Implement chunking and streaming strategies
+- **Model Hallucination**: Implement strict source grounding and validation
+
+### Medical Risks
+- **Information Accuracy**: Multiple validation layers and source verification
+- **Liability Concerns**: Clear disclaimers and usage guidelines
+- **Regulatory Compliance**: Follow healthcare AI guidelines and standards
 
 ---
 
