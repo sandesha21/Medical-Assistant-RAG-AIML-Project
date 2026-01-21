@@ -26,14 +26,7 @@
 [![RAG](https://img.shields.io/badge/Architecture-RAG-darkgreen.svg?logo=robot)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
 [![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blueviolet.svg?logo=chatbot)](https://en.wikipedia.org/wiki/Natural_language_processing)
 
-<!-- Status & Community -->
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg?logo=checkmarx)](https://github.com/sandesha21/Medical-Assistant-RAG)
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?logo=github)](https://github.com/sandesha21/Medical-Assistant-RAG/blob/main/CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/sandesha21/Medical-Assistant-RAG?style=social)](https://github.com/sandesha21/Medical-Assistant-RAG/stargazers)
-[![Forks](https://img.shields.io/github/forks/sandesha21/Medical-Assistant-RAG?style=social)](https://github.com/sandesha21/Medical-Assistant-RAG/network/members)
-
 <!-- Performance & Quality -->
-[![Code Quality](https://img.shields.io/badge/Code_Quality-A+-success.svg?logo=codeclimate)](https://github.com/sandesha21/Medical-Assistant-RAG)
 [![Accuracy](https://img.shields.io/badge/Retrieval_Accuracy-92%25-success.svg?logo=target)](https://github.com/sandesha21/Medical-Assistant-RAG)
 [![Response Time](https://img.shields.io/badge/Response_Time-<2s-success.svg?logo=speedtest)](https://github.com/sandesha21/Medical-Assistant-RAG)
 
@@ -318,14 +311,6 @@ CHUNK_SIZE = 512  # Reduce from default 1024
 ⚠️ **Important Medical Disclaimer**
 
 This system is designed as a research and support tool for healthcare professionals. It should not replace professional medical judgment or be used as the sole basis for clinical decisions. Always consult with qualified healthcare providers for medical advice, diagnosis, or treatment.
-
----
-
-## Acknowledgments
-
-- Medical professionals who provided domain expertise
-- Open-source community for foundational libraries
-- Healthcare institutions for data and validation support
 
 ---
 
