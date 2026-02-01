@@ -27,8 +27,9 @@
 [![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blueviolet.svg?logo=chatbot)](https://en.wikipedia.org/wiki/Natural_language_processing)
 
 <!-- Performance & Quality -->
-[![Accuracy](https://img.shields.io/badge/Retrieval_Accuracy-92%25-success.svg?logo=target)](https://github.com/sandesha21/Medical-Assistant-RAG)
-[![Response Time](https://img.shields.io/badge/Response_Time-<2s-success.svg?logo=speedtest)](https://github.com/sandesha21/Medical-Assistant-RAG)
+[![Medical AI](https://img.shields.io/badge/Domain-Medical_AI-lightblue.svg)](https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare)
+[![RAG](https://img.shields.io/badge/Architecture-RAG-darkgreen.svg)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+[![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blueviolet.svg)](https://en.wikipedia.org/wiki/Natural_language_processing)
 
 A Retrieval-Augmented Generation (RAG) system designed to support healthcare professionals with accurate, context-aware medical information retrieval and intelligent response generation.
 
@@ -45,28 +46,6 @@ A Retrieval-Augmented Generation (RAG) system designed to support healthcare pro
 **Healthcare Domain:** Medical Diagnosis • Clinical Guidelines • Treatment Protocols • Medical Research • Healthcare Analytics • Evidence-Based Medicine
 
 **Project Type:** Healthcare AI & NLP | Industry: Medical Technology | Focus: Clinical Decision Support & Medical Knowledge Management
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Dataset](#dataset)
-- [Architecture & Workflow](#architecture--workflow)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Demo & Examples](#demo--examples)
-- [Results & Impact](#results--impact)
-- [Use Cases](#use-cases)
-- [Performance Metrics](#performance-metrics)
-- [Contributing](#contributing)
-- [Future Enhancements](#future-enhancements)
-- [Disclaimer](#disclaimer)
-- [License](#license)
-- [Author](#author)
-
-📋 **[View Detailed Project Requirements](PROJECT_REQUIREMENTS.md)**
 
 ---
 
@@ -154,28 +133,36 @@ User Query → Document Retrieval (Vector DB) → Context Extraction → LLM Gen
 
 ### Prerequisites
 
+**Important**: This project requires GPU acceleration for optimal performance. If using Google Colab:
+
+1. Go to Runtime → Change runtime type
+2. Select "GPU" as hardware accelerator
+3. Choose "T4 GPU" or "A100 GPU" if available
+
+**Required packages:**
 ```bash
 pip install langchain transformers faiss-cpu pandas numpy
+# Additional packages may be needed based on your specific implementation
 ```
 
 ### Quick Start
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd medical-assistant-rag
+   git clone https://github.com/sandesha21/Medical-Assistant-RAG.git
+   cd Medical-Assistant-RAG
    ```
 
 2. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
-   # or install manually:
+   # Install required packages manually:
    pip install langchain transformers faiss-cpu pandas numpy
+   # Additional packages as needed for your environment
    ```
 
 3. **Run the notebook**
    ```bash
-   jupyter notebook Full_Code_NLP_RAG_Project_Notebook_sbadwaik.ipynb
+   jupyter notebook Medical_Assistant_NLP_RAG.ipynb
    ```
 
 4. **Follow the notebook cells to:**
@@ -193,10 +180,11 @@ pip install langchain transformers faiss-cpu pandas numpy
 ```python
 # Example medical queries the system can handle:
 queries = [
-    "What are the symptoms of diabetes?",
-    "Treatment options for hypertension",
-    "Side effects of metformin",
-    "Diagnostic criteria for pneumonia"
+    "What are the common symptoms and treatments for pulmonary embolism?",
+    "Can you provide the trade names of medications used for treating hypertension?", 
+    "What are the first-line options and alternatives for managing rheumatoid arthritis?",
+    "What are the diagnostic steps for suspected endocrine disorders?",
+    "What is the protocol for managing sepsis in a critical care unit?"
 ]
 ```
 
@@ -234,12 +222,14 @@ queries = [
 
 ## Performance Metrics
 
-| Metric | Score | Description |
-|--------|-------|-------------|
-| Retrieval Accuracy | 92% | Percentage of relevant documents retrieved |
-| Response Groundedness | 89% | How well responses are supported by sources |
-| Query Response Time | <2s | Average time to generate response |
-| Knowledge Coverage | 85% | Percentage of medical domains covered |
+| Metric | Target | Description |
+|--------|--------|-------------|
+| Retrieval Accuracy | >90% | Percentage of relevant documents retrieved |
+| Response Groundedness | >85% | How well responses are supported by sources |
+| Query Response Time | <3s | Average time to generate response |
+| Knowledge Coverage | >80% | Percentage of medical domains covered |
+
+*Note: Actual performance metrics will vary based on implementation and testing.*
 
 ---
 
@@ -322,8 +312,8 @@ If you use this work in your research, please cite:
 @misc{badwaik2024medical_rag,
   title={Medical Assistant RAG: A Retrieval-Augmented Generation System for Healthcare},
   author={Sandesh S. Badwaik},
-  year={2024},
-  url={https://github.com/sbadwaik/medical-assistant-rag}
+  year={2025},
+  url={https://github.com/sandesha21/Medical-Assistant-RAG}
 }
 ```
 
@@ -337,7 +327,7 @@ See [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author  
 **Sandesh S. Badwaik**  
-*Data Scientist & Machine Learning Engineer*
+*Applied Data Scientist & Machine Learning Engineer*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadwaik/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandesha21)
