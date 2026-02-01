@@ -9,7 +9,6 @@
 [![LangChain](https://img.shields.io/badge/🦜_LangChain-Framework-yellow.svg)](https://langchain.com/)
 [![HuggingFace](https://img.shields.io/badge/🤗_Transformers-red.svg?logo=huggingface&logoColor=white)](https://huggingface.co/transformers/)
 [![FAISS](https://img.shields.io/badge/FAISS-Vector_DB-purple.svg?logo=meta&logoColor=white)](https://faiss.ai/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991.svg?logo=openai&logoColor=white)](https://openai.com/)
 
 <!-- Data Science & Analytics -->
 [![Pandas](https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
@@ -18,17 +17,11 @@
 
 <!-- Development & Deployment -->
 [![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00.svg?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)](https://git-scm.com/)
 
-<!-- Project Specific -->
+<!-- Performance & Quality -->
 [![Medical AI](https://img.shields.io/badge/Domain-Medical_AI-lightblue.svg?logo=stethoscope)](https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare)
 [![RAG](https://img.shields.io/badge/Architecture-RAG-darkgreen.svg?logo=robot)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
-[![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blueviolet.svg?logo=chatbot)](https://en.wikipedia.org/wiki/Natural_language_processing)
-
-<!-- Performance & Quality -->
-[![Medical AI](https://img.shields.io/badge/Domain-Medical_AI-lightblue.svg)](https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare)
-[![RAG](https://img.shields.io/badge/Architecture-RAG-darkgreen.svg)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
 [![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blueviolet.svg)](https://en.wikipedia.org/wiki/Natural_language_processing)
 
 A Retrieval-Augmented Generation (RAG) system designed to support healthcare professionals with accurate, context-aware medical information retrieval and intelligent response generation.
